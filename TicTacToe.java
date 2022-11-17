@@ -269,7 +269,7 @@ public class TicTacToe extends JFrame implements ActionListener{
         // gives results and stores wins loss and draws
         void newGame(char winner) {
             repaint();
-
+            play = false;
             String result;
             if (winner==O) {
                 ++wins;
